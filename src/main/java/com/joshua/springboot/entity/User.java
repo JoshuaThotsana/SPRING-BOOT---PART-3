@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class User implements Serializable {
 
     // instance variables
-    private final long id;
+    private long id;
     private String name;
     private String surname;
 
